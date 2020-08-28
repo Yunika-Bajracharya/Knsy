@@ -1,11 +1,12 @@
 <template>
     <div class="product-item">
-        <p class="product-image"><img v-bind:src="product.image"/></p>
+        <p class="product-image"><img v-bind:src="product.image" /></p>
 
         <h3>{{product.name}}</h3>
         <div class="product-info">
         
-        <p v-show="product.inStock">InStock</p>
+        <p v-if="product.inStock">InStock</p>
+        <p v-else>Out Of Stock</p>
         </div>
 
         <button  :disabled="!product.inStock"  v-bind:class="{'activebutton': product.inStock}" v-on:click="$emit('add-to-cart',product.id)">Add to Cart</button>
@@ -24,13 +25,14 @@ export default {
 
 img {
     border: 1px solid #d8d8d8;
-    width: 70%;
+    width: 400px;
     margin: 40px;
     box-shadow: 0px .5px 1px #d8d8d8;
   }
 .product-image {
     width: 80%;
   }
+  
 
 .activebutton {
     margin-top: 30px;

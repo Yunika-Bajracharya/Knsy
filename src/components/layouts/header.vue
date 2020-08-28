@@ -2,8 +2,8 @@
     <header class="header">
       
         <h1>Kensy Shop</h1>
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link>
+        <router-link to="/">Our Products</router-link> |
+        <router-link to="/about">Buy</router-link>
         
         
     </header>

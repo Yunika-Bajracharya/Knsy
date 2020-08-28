@@ -23,14 +23,14 @@ export default {
         {
           id:1,
           name:"Krishnabhog rice",
-          image:'./assets/rice.jpg',
+          image:'../assets/rice.jpg',
           inStock:true,
           price:"120 per kg"
           },
         {
           id:2,
           name:"Sugar",
-          image:'./assets/sugar.jpg',
+          image:'../assets/sugar.jpg',
           inStock:false,
           price:"90 per kg"
         }
@@ -51,6 +51,7 @@ export default {
 
 <style>
 #app {
+  
   font-family: tahoma;
   color:#282828;
   margin: 0px;

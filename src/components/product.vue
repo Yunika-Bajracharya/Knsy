@@ -1,5 +1,5 @@
 <template>
-<div class="product">
+<div class="hbody" >
     <div v-bind:key="product.id" v-for="product in products">
         <Productitem v-bind:product="product"  v-on:add-to-cart="$emit('add-to-cart',product.id)"/>
         
@@ -22,7 +22,11 @@ export default {
 }
 </script>
 <style scoped>
-
+.hbody {
+    font-family: tahoma;
+    color:#282828;
+    margin: 0px;
+  }
 .cart {
     margin-right: 25px;
     float: right;
