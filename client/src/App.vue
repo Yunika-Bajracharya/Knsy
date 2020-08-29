@@ -26,7 +26,7 @@
               <a href="#">Products</a>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" 
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"
               role="button" aria-haspopup="true" aria-expanded="false">
               Cities
               <span class="caret"></span></a>
@@ -58,5 +58,30 @@
 </template>
 
 <style>
-
+.item-1 {
+background: url('~@/assets/1.jpg');
+}
+.item-2 {
+background: url('~@/assets/2.jpg');
+}
+.item-3 {
+background: url('~@/assets/3.jpg');
+}
+.item-1,
+.item-2,
+.item-3 {
+background-size: cover;
+background-position: 50% 50%;
+}
+.feature {
+background: url('~@/assets/main.jpg');
+background-position: top right;
+background-size: cover;
+background-color: #dd845a;
+color: white;
+text-shadow: 1px 1px 8px black;
+}
+.feature .btn {
+text-shadow: none;
+}
 </style>
