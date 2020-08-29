@@ -1,42 +1,29 @@
 {
-  "name": "ecommerce",
-  "version": "0.1.0",
-  "private": true,
+  "name": "knsy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nadika18/Knsy.git"
+  },
+  "author": "Suban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nadika18/Knsy/issues"
+  },
+  "homepage": "https://github.com/Nadika18/Knsy#readme",
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0-0"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0-0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0-0"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.1",
+    "nodemon": "^2.0.4"
+  }
 }
