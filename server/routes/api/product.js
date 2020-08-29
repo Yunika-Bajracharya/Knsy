@@ -84,6 +84,11 @@ router.get("items", async(req, res) => {
     })
 })
 
+router.get("/item/:id" , async(req, res) => {
+    Item.findById(req.params.id, (err, data) => {
+        res.send(data)
+    })
+})
 router.get("/", (req, res) => {
     // console.log(db_url)
     console.log("hi")
