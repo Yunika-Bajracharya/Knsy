@@ -63,7 +63,7 @@
       <h1 class="text-center">Everyday Products - Readily Available!</h1>
       <br />
       <div class="row" >
-        <Product />
+        <Product v-bind:products="products" v-bind:cart="cart" v-on:add-to-cart="addToCart"/>
         <!-- Product 1 -->
         <div class="col-sm-6 col-md-3">
           <div class="thumbnail featured-product">
