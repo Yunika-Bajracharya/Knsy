@@ -7,6 +7,7 @@ Digitalizing the local grocery stores and enabling contactless shopping to avoid
 Shopping for groceries and vital products cannot be avoided even during pandemic like this one but there is a constant fear of virus transmission upon visiting these grocery stores. In Nepal, the digitization of grocery stores isn’t very common and in this pandemic, we thought it is the right opportunity to think about it and start digitalizing our local grocery stores.
 
 Idea:
+
 • The customer can order the purchases online, pay for it digitally using either e-banking or services like Khalti, e-sewa, foneplay, etc and after that, you will get a unique code.
 
 • The goods ordered by the customer will be packed by the shopkeepers properly.
@@ -24,7 +25,9 @@ S
 • Furthermore, this doesn’t need any additional delivery capacities or costs.
 
 Challenges we ran into:
+
 • We initially used CSS bootstrap framework for the front-end coding but later we found out that it didn’t integrate well with the Vue framework, which we had already decided to work on, so we had to change the design and rewrite the code at the last moment.
 
 Technologies we used:
+
 MEVN stack, JavaScript, HTML5, CSS3, Twitter Bootstrap
